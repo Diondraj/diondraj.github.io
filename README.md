@@ -1,3 +1,27 @@
-# QR-code-project
-My project came from frontendmentor.io and the goal is to build out this QR code component and get it looking as close to the design as possible.
-I am a new developer with a background in UX design. I began to desire to build my designs so this will be the first project in which I do this with.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+    </style>
+    <title>QR code</title>
+</head>
+<body>
+    <div>
+        <img src="images/image-qr-code.png">
+        <h1>
+            <b>
+                Improve your makeup skills by watching the tutorial
+            </b>
+        </h1>
+        <p>
+            Scan the QR code to visit the youtube video and take your make up skills to the next level 
+        </p>
+    </div>
+    
+</body>
+</html>
