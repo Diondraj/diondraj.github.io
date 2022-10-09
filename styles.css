@@ -1054,7 +1054,6 @@ article>.slidetwo{
     grid-template-columns: 1fr;
     grid-template-rows: 25% 25% 25% 25%;
     padding-left: 20px;
-    height: 800px;
 }
 .resOne{
     color: black;
