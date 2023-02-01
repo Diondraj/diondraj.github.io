@@ -368,6 +368,10 @@ footer p{
 .projects{
     height: 1200px;
     padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
 }
 
 .bcnav{
@@ -402,6 +406,12 @@ footer p{
     padding: 5px 5px;
     text-align: center;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width: 1399px){
     .projects{
         height: 1300px;
@@ -423,7 +433,6 @@ footer p{
         border-radius: 12px;
         box-sizing: border-box;
         position: relative;
-        margin: 10px;
     }
     .bookclub:hover{
         display: flex;
@@ -437,6 +446,7 @@ footer p{
         border-radius: 12px;
         border: 6px solid #9fe8ff;
         box-sizing: border-box;
+        position: relative;
     }
     .bookclub h1{
         font-family: Montserrat;
@@ -508,7 +518,7 @@ footer p{
         width: 350px;
         height: 350px;
         border-radius: 12px;
-        margin: 10px;
+        align-self: end;
     }
     .airbnb:hover{
         background-image: url(images/g3solutionsicon.png);
@@ -523,7 +533,7 @@ footer p{
         border-radius: 12px;
         border: 6px solid #9fe8ff;
         box-sizing: border-box;
-        margin: 10px;
+        align-self: end;
     }
     .airbnb h1{
         color: white;
@@ -573,7 +583,6 @@ footer p{
         width: 350px;
         height: 350px;
         border-radius: 12px;
-        margin: 10px;
         position: relative;
     }
     .emk h1{
@@ -649,8 +658,6 @@ footer p{
     border-radius: 12px;
     box-sizing: border-box;
     position: relative;
-    margin: 10px;
-    left: 200px;
 }
 .bookclub:hover{
     display: flex;
@@ -665,8 +672,6 @@ footer p{
     border: 6px solid #9fe8ff;
     box-sizing: border-box;
     position: relative;
-    margin: 10px;
-    left: 200px;
 }
 .bookclub h1{
     font-family: Montserrat;
@@ -737,8 +742,7 @@ footer p{
     width: 350px;
     height: 350px;
     border-radius: 12px;
-    position: relative;
-    left: 1000px;
+    align-self: end;
 }
 .airbnb:hover{
     background-image: url(images/g3solutionsicon.png);
@@ -753,8 +757,7 @@ footer p{
     border-radius: 12px;
     border: 6px solid #9fe8ff;
     box-sizing: border-box;
-    position: relative;
-    left: 1000px;
+    align-self: end;
 }
 .airbnb h1{
     color: white;
@@ -797,7 +800,6 @@ footer p{
     height: 350px;
     border-radius: 12px;
     position: relative;
-    left: 200px;
 }
 .emk h1{
     font-size: 40px;
