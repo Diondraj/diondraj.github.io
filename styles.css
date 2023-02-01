@@ -1110,6 +1110,7 @@ article>.slidetwo{
     grid-template-rows: 1fr 1fr 1fr;
     padding-left: 20px;
     height: 400px;
+    width: 100vw;
 }
 .userOne{
     grid-column: 1/2;
@@ -1135,6 +1136,7 @@ article>.slidetwo{
     padding-left: 20px;
     background-color:#EBEBEB;
     height: 550px;
+    width: 100vw;
 }
 .intOne{
     grid-column: 1/2;
@@ -1159,6 +1161,7 @@ article>.slidetwo{
     padding-left: 20px;
     background-color:#EBEBEB;
     height: 700px;
+    width: 100vw;
 }
 .fiveOne{
     grid-column: 1/2;
@@ -1669,6 +1672,7 @@ article>.slidetwo{
         grid-template-rows: 50% 25% 25%;
         padding-left: 20px;
         height: 400px;
+        width: 100vw;
     }
     .userOne{
         grid-column: 1/2;
@@ -1694,6 +1698,7 @@ article>.slidetwo{
         padding-left: 20px;
         background-color:#EBEBEB;
         height: 550px;
+        width: 100vw;
     }
     .intOne{
         grid-column: 1/2;
@@ -1718,6 +1723,7 @@ article>.slidetwo{
         padding-left: 20px;
         background-color:#EBEBEB;
         height: 700px;
+        width: 100vw;
     }
     .fiveOne{
         grid-column: 1/2;
@@ -2282,6 +2288,7 @@ article>.slidetwo{
     padding-left: 20px;
     padding-top: 2rem;
     height: 400px;
+    width: 100vw;
 }
 .userOne{
     grid-column: 1/2;
@@ -2308,6 +2315,7 @@ article>.slidetwo{
     background-color: #EBEBEB;
     height: 550px;
     padding-top: 100px;
+    width: 100vw;
 }
 .intOne{
     grid-column: 1/2;
@@ -2332,6 +2340,7 @@ article>.slidetwo{
     padding-left: 20px;
     background-color: #EBEBEB;
     height: 700px;
+    width: 100vw;
 }
 .fiveOne{
     grid-column: 1/2;
@@ -2956,6 +2965,7 @@ article>.slidetwo{
     padding-left: 20px;
     padding-top: 2rem;
     height: 400px;
+    width: 100vw;
 }
 .userOne{
     grid-column: 1/2;
@@ -2982,6 +2992,7 @@ article>.slidetwo{
     background-color: #EBEBEB;
     height: 550px;
     padding-top: 100px;
+    width: 100vw;
 }
 .intOne{
     grid-column: 1/2;
@@ -3006,6 +3017,7 @@ article>.slidetwo{
     padding-left: 20px;
     background-color: #EBEBEB;
     height: 700px;
+    width: 100vw;
 }
 .fiveOne{
     grid-column: 1/2;
@@ -4023,310 +4035,7 @@ article>.slidetwo{
         padding-bottom: 30px;
     }
 }
-/*@media (max-width:788px){
-    .emkmain{
-        background-color: white;
-    }
-    .emkslideOne{
-        margin-top: 30px;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 10% 35% 55%;
-        padding: 0 30px 0 30px;
-    }
-    .emkOne{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 30px;
-    }
-    .emkOneOne{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        margin-top: 20px;
-    }
-    .emkOneTwo{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        position: absolute;
-        right: 0;
-    }
-    .emkOneTwo>img{
-        display: none;
-    }
-    .emkOneThree{
-        grid-column: 1/2;
-        grid-row: 2/3;
-        width: 60%;
-    }
-    .emkOneFour{
-        grid-column: 2/3;
-        grid-row: 2/3;
-        margin: auto;
-        text-align: center;
-    }
-    .emkOneFive{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        width: 60%;
-    }
-    .emkOneSix{
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-    .emkslideTwo{
-        background-color: white;
-        padding-top: 10rem;
-    }
-    .emkTwoOne{
-        padding: 10px 0 0 30px;
-    }
-    .emkslideThree{
-        background-color: white;
-        padding-bottom: 100px;
-    }
-    .greyboxOne{
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #F2F2F2;
-    }
-    .emkOne{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 30px;
-        flex-wrap: wrap;
-    }
-    .emkslideThreeTitle{
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    .emkThreeOne{
-        width: 500px;
-    }
-    .emkThreeTwo{
-        width: 500px;
-    }
-    .emkThreeThree{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .emkThreeThree>img{
-        display: none;
-        width: 50%;
-        margin-left: 158px;
-    }
-    .emkTwo{
-        margin-left: 30px;
-    }
-    .emkslideFour{
-        background-color: white;
-        padding-left: 30px;
-        margin-bottom: -17px;
-    }
-    .emkFourTwo{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-    .emkFourTwoOne{
-        width: 500px;
-    }
-    .emkFourTwoTwo{
-        width: 500px;
-    }
-    .emkslideFive{
-        background-color: white;
-        padding-top: 60px;
-    }
-    .fiveGroup{
-        padding-left: 30px;
-    }
-    .greyboxTwo{
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #F2F2F2;
-    }
-    .emkslideSix{
-        background-color: white;
-    }
-    .greyboxThree{
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #F2F2F2;
-    }
-    .slidesixcontent{
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    .infargrid{
-        text-align: center;
-    }
-    .infromarc{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .pOne{
-        width: 300px;
-        padding: 10px;
-    }
-    .pTwo{
-        width: 300px;
-        padding: 10px;
-    }
-    .pThree{
-        width: 300px;
-        padding: 10px;
-    }
-    .greyboxFour{
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #F2F2F2;
-    }
-    .emkslideSeven{
-        background-color: white;
-    }
-    .Sevencontent{
-        padding-left: 30px;
-        padding-top: 40px;
-    }
-    .sevenFour{
-        padding-top: 30px;
-    }
-    .emkslideEight{
-        background-color: white;
-        padding-left: 30px;
-        padding-top: 40px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        margin-bottom: 40px;
-    }
-    .eightTwo{
-        color: white;
-        background-color: orange;
-        border-radius: 28px;
-        padding: 4px 10px;
-        width: 250px;
-        height: 30px;
-        margin-top: 50px;
-    }
-    .eightTwo:hover{
-        color: black;
-        background-color: orange;
-        border-radius: 28px;
-        padding: 4px 10px;
-        width: 250px;
-        height: 30px;
-        margin-top: 50px;
-    }
-    .eightimgOne{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        margin: auto;
-        text-align: center;
-    }
-    .emkslideNine{
-        background-color: white;
-    }
-    .greyboxFive{
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #F2F2F2;
-    }
-    .slideNineOne{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-left: 100px;
-    }
-    
-    .slideNineOneOne{
-        width: 400px;
-    
-    }
-    .slideNineOneTwo{
-        width: 400px;
-    }
-    
-    .slideNinecontent{
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    .slideNineThree{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-left: 100px;
-        margin-top: 100px;
-    }
-    .slideNineThree>img{
-        width: 30%;
-        height: 30%;
-    }
-    .slideNineThreeSubOne{
-        width: 400px;
-    }
-    .slideNineThreeSubTwo{
-        width: 400px;
-    }
-    .slideNineTwo{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-left: 100px;
-        margin-top: 100px;
-    }
-    .emksubslideOne{
-        padding-left: 30px;
-    }
-    .emksubslideTwo{
-        padding-left: 30px;
-    }
-    .slideTenThree{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 50px;
-        padding: 30px 30px;
-        background-color: #FFEDE4;
-    }
-    .slideTenOne{
-        width: 500px;
-    }
-    .slideTenTwo{
-        width: 500px;
-    }
-    .subTenOne{
-        width: 400px;
-    }
-    .emkslideEleven{
-        padding-left: 30px;
-        padding-top: 60px;
-    }
-    .nsIcons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .slideElevenOne{
-        width: 70%;
-        padding-bottom: 30px;
-    }
-}*/
+
 @media (max-width: 788px) and (min-width: 300px){
     #emkbody{
         width: fit-content;
