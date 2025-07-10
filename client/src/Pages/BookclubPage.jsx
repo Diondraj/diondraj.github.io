@@ -1,6 +1,6 @@
 export default function BookClub() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 px-6 py-20 flex flex-col items-center space-y-10">
+    <div id="bookclub" className="min-h-screen bg-white text-gray-900 px-6 py-20 flex flex-col items-center space-y-10">
       {/* Header */}
       <h1 className="text-5xl font-extrabold tracking-tight text-neutral-900">
         BookClub

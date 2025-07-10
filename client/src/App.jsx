@@ -1,6 +1,7 @@
-import { Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import { Link as ScrollLink } from 'react-scroll';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import './App.css'
 import './index.css'
 'use client'
@@ -19,8 +20,7 @@ import ProjectCard from './Components/ProjectCard.jsx'
 import Services from './Components/services.jsx'
 import AboutMe from './Components/About.jsx'
 import Contact from './Components/Contact.jsx'
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+
 
 
 function ScrollToHashElement() {
@@ -48,7 +48,7 @@ const navigation = [
 
 const projects = [
   { thumbnail: EMK, name: 'Eat More Korean',  category:'UX case study', tool1:'Figma', tool2:'Card sort', tool3:'Surveys', summary:'Kiosk app for customers of different language backgrounds to ease the process of ordering authentic Korean food.' , href: 'emk' },
-  { thumbnail: Bookclub, name: 'BookClub',  category:'UX case study and Web development', tool1:'HTML', tool2:'Bootstrap', tool3:'Figma', summary:'A website that acts as a social platform to host book clubs and live discussion feeds centered around your availibility.', href: 'bookclub'},
+  { thumbnail: Bookclub, name: 'BookClub',  category:'UX case study and Web development', tool1:'HTML', tool2:'Bootstrap', tool3:'Figma', summary:'A website that acts as a social platform to host book clubs and live discussion feeds centered around your availibility.', href: '/bookclub'},
   { thumbnail: Windbnb, name: 'WindBnb',  category:'UX case study and Web development', tool1:'React', tool2:'MongoDB', tool3:'Express.js', summary:'Based off of the popular accommodation booking app Airbnb, my app incorporates a unique feature that allows friends to plan together.', href: 'https://windbnb-zd7l.onrender.com/' },
   
   { thumbnail: Sneakers, name: 'Sneakers', category:'Web development', tool1:'HTML', tool2:'CSS', tool3:'Javascript', summary:'A shoe E-commerce website', href: 'https://www.sneakers-c24z.onrender.com' },

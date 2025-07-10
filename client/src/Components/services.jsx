@@ -123,7 +123,7 @@ return(
            </div>
 
           <p className="block mt-4 text-sm text-gray-600">
-            A consultation ($50) will be required for either service. This will go toward your service total if we work together.
+            A ($50) consultation will be required for either service. This will go toward your service total if we work together.
           </p>
          
 

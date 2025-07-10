@@ -16,10 +16,10 @@
             From custom web design to reliable maintenance, I help businesses create and sustain powerful online experiences.
             </p>
             <Socials />
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 mb-10 flex items-center justify-center gap-x-6">
               <a
                 href="#portfolio"
-                className="rounded-md bg-red-200  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-red-200 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-red-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 See Portfolio
               </a>
