@@ -1,5 +1,15 @@
-
+import { useEffect } from 'react';
 export default function EMK() {
+   useEffect(() => {
+    // Runs when the component mounts
+    window.scrollTo(0, 0);
+
+    return () => {
+      // Optional: runs when the component unmounts
+      console.log("Bookclub page unmounted");
+    };
+  }, []); // Empty dependency array = only runs once on mount/unmount
+
   return (
     <div className="bg-white text-gray-800 font-sans leading-relaxed">
       <div className="max-w-3xl mx-auto px-6 py-4 space-y-12">

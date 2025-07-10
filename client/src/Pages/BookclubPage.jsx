@@ -1,4 +1,18 @@
+
+import { useEffect } from 'react';
+
 export default function BookClub() {
+  
+  useEffect(() => {
+    // Runs when the component mounts
+    window.scrollTo(0, 0);
+
+    return () => {
+      // Optional: runs when the component unmounts
+      console.log("Bookclub page unmounted");
+    };
+  }, []); // Empty dependency array = only runs once on mount/unmount
+
   return (
     <div id="bookclub" className="min-h-screen bg-white text-gray-900 px-6 py-20 flex flex-col items-center space-y-10">
       {/* Header */}
