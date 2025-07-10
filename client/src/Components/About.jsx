@@ -46,7 +46,7 @@ export default function AboutMe() {
         {/* Profile Image */}
         <div className="flex-1 flex justify-center">
           <img 
-            src="./src/assets/avatar/image9 (1).jpeg" 
+            src="/assets/avatar/image9 (1).jpeg" 
             alt="Diondra profile"
             className="w-60 h-60 rounded-full shadow-lg object-cover hover:scale-105 transition-transform duration-300"
           />

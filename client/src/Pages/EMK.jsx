@@ -40,7 +40,7 @@ export default function EMK() {
         {/* 🖼️ Design Process Image */}
         <section>
           <img
-            src="./src/assets/eatmorekorean/images/design process.png"
+            src="/assets/eatmorekorean/images/design process.png"
             alt="Design process"
             className="w-full rounded-lg shadow-md"
           />
@@ -127,12 +127,12 @@ export default function EMK() {
           </p>
           <div className="space-y-4">
             <img
-              src="./src/assets/eatmorekorean/images/bubbles.png"
+              src="/assets/eatmorekorean/images/bubbles.png"
               alt="Affinity map"
               className="w-full rounded-lg shadow-md"
             />
             <img
-              src="./src/assets/eatmorekorean/images/PersonaOneTwo.png"
+              src="/assets/eatmorekorean/images/PersonaOneTwo.png"
               alt="Personas"
               className="w-full rounded-lg shadow-md"
             />
@@ -161,7 +161,7 @@ export default function EMK() {
           </div>
 
           <img
-            src="./src/assets/eatmorekorean/images/informarchparticipants.png"
+            src="/assets/eatmorekorean/images/informarchparticipants.png"
             alt="Information architecture"
             className="w-full rounded-lg shadow-md"
           />
@@ -177,7 +177,7 @@ export default function EMK() {
           </div>
 
           <img
-            src="./src/assets/eatmorekorean/images/emkuserflow.png"
+            src="/assets/eatmorekorean/images/emkuserflow.png"
             alt="User flow"
             className="w-full rounded-lg shadow-md"
           />
@@ -191,7 +191,7 @@ export default function EMK() {
             <div className="bg-indigo-50 border border-indigo-100 p-6 rounded-lg shadow-sm space-y-4">
               <figure>
                 <img
-                  src="./src/assets/eatmorekorean/images/ipad_ideation.png"
+                  src="/assets/eatmorekorean/images/ipad_ideation.png"
                   alt="Collage of kiosk screens"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -228,7 +228,7 @@ export default function EMK() {
 
               <figure>
                 <img
-                  src="./src/assets/eatmorekorean/images/lo-fi_wireframesIpad.png"
+                  src="/assets/eatmorekorean/images/lo-fi_wireframesIpad.png"
                   alt="iPad wireframes"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -236,7 +236,7 @@ export default function EMK() {
               <br></br>
 
               <img
-                src="./src/assets/eatmorekorean/images/lo-fi_wireframes.png"
+                src="/assets/eatmorekorean/images/lo-fi_wireframes.png"
                 alt="Custom kiosk wireframes"
                 className="w-full rounded-lg shadow-md"
               />
@@ -248,7 +248,7 @@ export default function EMK() {
             <div className="bg-rose-50 border border-rose-100 p-6 rounded-lg shadow-sm space-y-4">
               <h3 className="text-2xl font-semibold text-rose-700">🎨 Logo & Branding</h3>
               <img
-                src="./src/assets/eatmorekorean/images/Logo_Branding.png"
+                src="/assets/eatmorekorean/images/Logo_Branding.png"
                 alt="Logo and branding designs"
                 className="w-full rounded-lg shadow-md"
               />
@@ -261,7 +261,7 @@ export default function EMK() {
               <div>
                 <h4 className="font-bold text-gray-800">📱 iPad Kiosk</h4>
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_1.png"
+                  src="/assets/eatmorekorean/images/hifi_1.png"
                   alt="iPad high-fidelity"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -270,7 +270,7 @@ export default function EMK() {
               <div>
                 <h4 className="font-bold text-gray-800">🖥️ Regular Kiosk</h4>
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_4.png"
+                  src="/assets/eatmorekorean/images/hifi_4.png"
                   alt="Regular kiosk screen"
                   className="w-full rounded-lg shadow-md"
                 />
@@ -279,12 +279,12 @@ export default function EMK() {
               <div>
                 <h4 className="font-bold text-gray-800">🍜 Food Selection</h4>
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_2.png"
+                  src="/assets/eatmorekorean/images/hifi_2.png"
                   alt="Food selection screen"
                   className="w-full rounded-lg shadow-md"
                 />
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_5.png"
+                  src="/assets/eatmorekorean/images/hifi_5.png"
                   alt="Alternate food selection"
                   className="w-full rounded-lg shadow-md mt-4"
                 />
@@ -293,12 +293,12 @@ export default function EMK() {
               <div>
                 <h4 className="font-bold text-gray-800">💳 Payment Process</h4>
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_3.png"
+                  src="/assets/eatmorekorean/images/hifi_3.png"
                   alt="Payment process screen"
                   className="w-full rounded-lg shadow-md"
                 />
                 <img
-                  src="./src/assets/eatmorekorean/images/hifi_6.png"
+                  src="/assets/eatmorekorean/images/hifi_6.png"
                   alt="Alternate payment screen"
                   className="w-full rounded-lg shadow-md mt-4"
                 />
