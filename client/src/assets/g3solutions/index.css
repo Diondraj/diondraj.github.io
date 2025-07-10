@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url(images/oceanbackground.png);
+    background-size: cover;
+    font-family: roboto;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 0 20px;
+    margin: auto;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+nav{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width:768px){
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+  
+
+#linklist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 50%;
+}  
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: skyblue;
+    transition: .3s
+}
+@media screen and (max-width: 800px) {
+    #linklist{
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+    }
+}
+.topnav {
+    overflow: hidden;
+    margin-right: 1em;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #9fe8ff;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 613px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    nav{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+  
+ 
+ /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 613px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+    .navcontainer>img{
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+  }
+  /* styles for the page sections */
+  
+.slideone{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40% 60%;
+    padding-left: 20px;
+}
+.bcone{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.bcone>p{
+    padding-left: 10px;
+}
+.bctwo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-left: 30%;
+    width: 100%;
+}
+.smallflexbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.testPrototype {
+    color: white;
+    background-color: #d60038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+}
+.previewbc {
+    color: white;
+    background-color: #250188;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+}
+.bcthree{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px 10px;
+    margin: auto;
+}
+.bcfour{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+}
+.slidetwo{
+    background-color: #EBEBEB;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding-left: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 15em;
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}
+footer>.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FE8FF;
+    border-radius: 10px;
+    width: 15%;
+    height: 20%;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer>.btn:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FE8FF;
+    border-radius: 10px;
+    width: 15%;
+    height: 20%;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    transform: scale(1.2,1.2);
+}
+footer p{
+    color: white;
+    margin-top: 10px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+@media (max-width:1200px){
+    .aTags{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .slideone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .bcone{
+        width: 100%;
+    }
+    .bcone>p{
+        padding-left: 10px;
+    }
+    .bctwo{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding-left: 30%;
+        width: 100%;
+    }
+    .smallflexbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .testPrototype {
+        color: white;
+        background-color: #d60038;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        width: 9rem;
+        height: 40px;
+    }
+    .previewbc {
+        color: white;
+        background-color: #250188;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        width: 9rem;
+        height: 40px;
+    }
+    .bcthree{
+        padding: 10px 10px;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+    .bcfour{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: auto;
+    }
+    .slidetwo{
+        background-color: #EBEBEB;
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding-left: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: 15em;
+        background-color: black;
+        text-align: center;
+        padding: 1em;
+    }
+    footer>.btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9FE8FF;
+        border-radius: 10px;
+        width: 9rem;
+        height: 20%;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer>.btn:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9FE8FF;
+        border-radius: 10px;
+        width: 9rem;
+        height: 20%;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: .3s;
+        transform: scale(1.2,1.2);
+    }
+    footer p{
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 18rem;
+    }
+}
