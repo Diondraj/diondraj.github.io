@@ -119,7 +119,7 @@ export default function BookClub() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="flex flex-col items-center">
               <img
-                src="./src/assets/bookclub/images/goodreadslogo.png"
+                src="/assets/bookclub/images/goodreadslogo.png"
                 alt="Goodreads logo"
                 className="w-12 h-12 object-contain rounded-md shadow-sm mb-2"
               />
@@ -127,7 +127,7 @@ export default function BookClub() {
             </div>
             <div className="flex flex-col items-center">
               <img
-                src="./src/assets/bookclub/images/librarythinglogo.png"
+                src="/assets/bookclub/images/librarythinglogo.png"
                 alt="LibraryThing logo"
                 className="w-12 h-12 object-contain rounded-md shadow-sm mb-2"
               />
@@ -135,7 +135,7 @@ export default function BookClub() {
             </div>
             <div className="flex flex-col items-center">
               <img
-                src="./src/assets/bookclub/images/litsylogo.png"
+                src="/assets/bookclub/images/litsylogo.png"
                 alt="Litsy logo"
                 className="w-28 h-28 object-contain rounded-md shadow-sm mb-2"
               />
@@ -182,7 +182,7 @@ export default function BookClub() {
 
           {/* Small Image */}
           <img
-            src="./src/assets/bookclub/images/partdataimage.png"
+            src="/assets/bookclub/images/partdataimage.png"
             alt="Participant data visualization"
             className="w-full max-w-md mx-auto rounded-md shadow-sm"
           />
@@ -199,7 +199,7 @@ export default function BookClub() {
         <div className="bg-emerald-50 border border-emerald-100 p-6 rounded-lg shadow-sm hover:shadow-md transition">
           <h2 className="text-2xl font-bold text-emerald-700 border-b border-emerald-200 pb-2 mb-4">Interview Findings</h2>
           <img
-            src="./src/assets/bookclub/images/partdataimage.png"
+            src="/assets/bookclub/images/partdataimage.png"
             alt="Interview insights"
             className="w-full max-w-md mx-auto rounded-md shadow-sm"
           />
@@ -217,13 +217,13 @@ export default function BookClub() {
           <h3 className="text-xl font-bold text-emerald-700 border-b border-emerald-200 pb-2">Interview Findings</h3>
           
           <img 
-            src="./src/assets/bookclub/images/findings.png"
+            src="/assets/bookclub/images/findings.png"
             alt="Interview findings"
             className="w-full max-w-md mx-auto rounded-md shadow-md"
           />
           
           <img 
-            src="./src/assets/bookclub/images/interviews.png"
+            src="/assets/bookclub/images/interviews.png"
             alt="Interview outtakes"
             className="w-full max-w-md mx-auto rounded-md shadow-md"
           />
@@ -231,7 +231,7 @@ export default function BookClub() {
           <div className="grid md:grid-cols-3 gap-6 text-center text-sm text-stone-700">
             <div className="space-y-2">
               <img 
-                src="./src/assets/bookclub/images/fourpeople.png"
+                src="/assets/bookclub/images/fourpeople.png"
                 alt="4 people icon"
                 className="h-8 mx-auto"
               />
@@ -239,7 +239,7 @@ export default function BookClub() {
             </div>
             <div className="space-y-2">
               <img 
-                src="./src/assets/bookclub/images/threepeople.png"
+                src="/assets/bookclub/images/threepeople.png"
                 alt="3 people icon"
                 className="h-8 mx-auto"
               />
@@ -247,7 +247,7 @@ export default function BookClub() {
             </div>
             <div className="space-y-2">
               <img 
-                src="./src/assets/bookclub/images/oneperson.png"
+                src="/assets/bookclub/images/oneperson.png"
                 alt="1 person icon"
                 className="h-8 mx-auto"
               />
@@ -267,7 +267,7 @@ export default function BookClub() {
 
           <div className="bg-white border border-gray-100 rounded-lg p-4 space-y-4 shadow-sm">
             <img 
-              src="./src/assets/bookclub/images/Amanda.png"
+              src="/assets/bookclub/images/Amanda.png"
               alt="Amanda Klein"
               className="w-28 max-w-md mx-auto rounded-md shadow"
             />
@@ -318,7 +318,7 @@ export default function BookClub() {
             <div className="flex flex-col items-center mt-6">
               <h4 className="font-semibold text-gray-700">💖 Favorite Brands</h4>
               <img 
-                src="./src/assets/bookclub/images/goodreadslogo.png"
+                src="/assets/bookclub/images/goodreadslogo.png"
                 alt="Goodreads"
                 className="w-12 h-8 mt-2"
               />
@@ -338,7 +338,7 @@ export default function BookClub() {
             The product features can make or break the experience for users. After assessing the user needs, business goals, and technical constraints, I listed features essential to creating a meaningful social experience on BookClub.
           </p>
           <img 
-            src="./src/assets/bookclub/images/featurechart.png"
+            src="/assets/bookclub/images/featurechart.png"
             alt="Feature chart"
             className="w-full max-w-3xl mx-auto rounded-md shadow-sm"
           />
@@ -355,12 +355,12 @@ export default function BookClub() {
 
           <div className="grid gap-6 md:grid-cols-2">
             <img 
-              src="./src/assets/bookclub/images/Sitemap.png"
+              src="/assets/bookclub/images/Sitemap.png"
               alt="Sitemap"
               className="w-full rounded-md shadow-sm"
             />
             <img 
-              src="./src/assets/bookclub/images/userflow.png"
+              src="/assets/bookclub/images/userflow.png"
               alt="User flow"
               className="w-full rounded-md shadow-sm"
             />
@@ -368,17 +368,17 @@ export default function BookClub() {
 
           <div className="grid gap-6 md:grid-cols-3">
             <img 
-              src="./src/assets/bookclub/images/transparent%20logo%20and%20branding.png"
+              src="/assets/bookclub/images/transparent%20logo%20and%20branding.png"
               alt="Branding"
               className="w-full rounded-md shadow-sm"
             />
             <img 
-              src="./src/assets/bookclub/images/Wireframes.png"
+              src="/assets/bookclub/images/Wireframes.png"
               alt="Wireframes"
               className="w-full rounded-md shadow-sm"
             />
             <img 
-              src="./src/assets/bookclub/images/Hi-fidelity%20Designs.png"
+              src="/assets/bookclub/images/Hi-fidelity%20Designs.png"
               alt="Hi-fidelity Designs"
               className="w-full rounded-md shadow-sm"
             />
@@ -434,7 +434,7 @@ export default function BookClub() {
         </p>
 
         <img 
-          src="./src/assets/bookclub/images/book%20meeting%20page%20iteration.png"
+          src="/assets/bookclub/images/book%20meeting%20page%20iteration.png"
           alt="Updated book club meeting page design"
           className="w-full max-w-3xl mx-auto rounded-md shadow-sm"
         />

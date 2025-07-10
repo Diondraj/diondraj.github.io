@@ -67,7 +67,7 @@ export default function Example() {
               <a href="/">
                 <img
                 className="h-10 w-10 rounded-full object-cover border border-gray-300 shadow-sm"
-                src="../src/assets/avatar/Diondra.JPG"
+                src="/assets/avatar/Diondra.JPG"
                 alt="User avatar"
               />
               </a>
