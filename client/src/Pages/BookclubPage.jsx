@@ -137,7 +137,7 @@ export default function BookClub() {
               <img
                 src="/assets/bookclub/images/litsylogo.png"
                 alt="Litsy logo"
-                className="w-28 h-28 object-contain rounded-md shadow-sm mb-2"
+                className="w-12 h-12 object-contain rounded-md shadow-sm mb-2"
               />
               <p className="text-stone-600 text-sm">Litsy</p>
             </div>
