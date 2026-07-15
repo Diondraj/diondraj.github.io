@@ -54,7 +54,7 @@ import { useEffect } from 'react';
         </section>
         <section>
             <h2 className="text-2xl font-bold">View Interactive prototype below</h2>
-            <p>To scroll, use two fingers and drag or the mouse wheel while hovering over the interactive screen.</p>
+            <p>To scroll, please use two fingers and drag or the mouse wheel while hovering over the interactive screen.</p>
         </section>
         </div>
         <div

@@ -47,7 +47,7 @@ const navigation = [
   { name: 'Portfolio', href: '/#portfolio' },
   { name: 'Contact', href: '/#contact' },
   { name: 'About', href: '/#about' },
-]
+] 
 
 const projects = [
   { thumbnail: bridgeworkforce, name:'The Bridge Workforce', category:'UX and Web Design', tool1:'Figma', tool2:'competitive research', tool3:'CSS', summary:'Designed a website that allows students to unlock new skills, gain in-demand knowledge, and transform their career journey', href:'/bridgePage'},
@@ -55,7 +55,7 @@ const projects = [
   { thumbnail: Bookclub, name: 'BookClub',  category:'UX case study and Web development', tool1:'HTML', tool2:'Bootstrap', tool3:'Figma', summary:'A website that acts as a social platform to host book clubs and live discussion feeds centered around your availibility.', href: '/bookclub'},
   { thumbnail: Windbnb, name: 'WindBnb',  category:'Web development', tool1:'React', tool2:'MongoDB', tool3:'Express.js', summary:'Based off of the popular accommodation booking app Airbnb, my app incorporates a unique feature that allows friends to plan together.', href: 'https://windbnb-zd7l.onrender.com/' },
   
-  // { thumbnail: Sneakers, name: 'Sneakers', category:'Web development', tool1:'HTML', tool2:'CSS', tool3:'Javascript', summary:'A shoe E-commerce website', href: 'https://www.sneakers-c24z.onrender.com' },
+  //  { thumbnail: Sneakers, name: 'Sneakers', category:'Web development', tool1:'HTML', tool2:'CSS', tool3:'Javascript', summary:'A shoe E-commerce website', href: 'https://www.sneakers-c24z.onrender.com' },
   
   { thumbnail: Spaceship, name: 'Spaceship', category:'Web development', tool1:'HTML', tool2:'CSS', tool3:'Javascript', summary:'A space alien game based on probability', href: 'https://diondraevans.github.io/Space-Battle-MOD-1-PROJECT-/' }
 ]
