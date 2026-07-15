@@ -1,3 +1,4 @@
+// reminder you must npm run build in order to see changes then take contents in dist folder and put in root then git push
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import { useEffect } from 'react';
@@ -7,6 +8,7 @@ import './index.css'
 'use client'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import bridgeworkforce from '../src/assets/bridgeworkforce/images/Thumbnail_bw.jpg'
 import EMK from '../src/assets/eatmorekorean/images/emk_thumbnail copy.png'
 import Bookclub from '../src/assets/bookclub/images/bookclub_thumbnail.png'
 import Windbnb from '../src/assets/windbnb/images/display-mockup-min.jpeg'
@@ -15,6 +17,7 @@ import Spaceship from '../src/assets/spaceship/images/SpaceshipThumbnail.png'
 import EmkPage from './Pages/EMK.jsx'
 import BookclubPage from './Pages/BookclubPage.jsx'
 import WindbnbPage from './Pages/Windbnb.jsx'
+import thebridgePage from ' thebridgePage.jsx'
 import Hero from './Hero.jsx'
 import ProjectCard from './Components/ProjectCard.jsx'
 import Services from './Components/services.jsx'
@@ -47,6 +50,7 @@ const navigation = [
 ]
 
 const projects = [
+  { thumbnail: bridgeworkforce, name:'The Bridge Workforce', category:'UX and Web Design', tool1:'Figma', summary:'Designed a website that allows students to unlock new skills, gain in-demand knowledge, and transform their career journey', href:'/thebridge'},
   { thumbnail: EMK, name: 'Eat More Korean',  category:'UX case study', tool1:'Figma', tool2:'Card sort', tool3:'Surveys', summary:'Kiosk app for customers of different language backgrounds to ease the process of ordering authentic Korean food.' , href: 'emk' },
   { thumbnail: Bookclub, name: 'BookClub',  category:'UX case study and Web development', tool1:'HTML', tool2:'Bootstrap', tool3:'Figma', summary:'A website that acts as a social platform to host book clubs and live discussion feeds centered around your availibility.', href: '/bookclub'},
   { thumbnail: Windbnb, name: 'WindBnb',  category:'Web development', tool1:'React', tool2:'MongoDB', tool3:'Express.js', summary:'Based off of the popular accommodation booking app Airbnb, my app incorporates a unique feature that allows friends to plan together.', href: 'https://windbnb-zd7l.onrender.com/' },
@@ -146,14 +150,12 @@ export default function Example() {
             }
           />
 
-          {/* Bookclub internal page */}
+          {/* Bookclub internal pages */}
           <Route path="/bookclub" element={<BookclubPage />} />
           <Route path="/windbnb" element={<WindbnbPage />} />
           <Route path="/emk" element={<EmkPage />} />
+          <Route path="/thebridge" element={<thebridgePage />} />
       
-      
-
-          {/* Add more internal routes here */}
         </Routes>
       </main>
       <Contact />
