@@ -50,7 +50,7 @@ const navigation = [
 ]
 
 const projects = [
-  { thumbnail: bridgeworkforce, name:'The Bridge Workforce', category:'UX and Web Design', tool1:'Figma', summary:'Designed a website that allows students to unlock new skills, gain in-demand knowledge, and transform their career journey', href:'/thebridge'},
+  { thumbnail: bridgeworkforce, name:'The Bridge Workforce', category:'UX and Web Design', tool1:'Figma', tool2:'competitive research', tool3:'CSS', summary:'Designed a website that allows students to unlock new skills, gain in-demand knowledge, and transform their career journey', href:'/thebridge'},
   { thumbnail: EMK, name: 'Eat More Korean',  category:'UX case study', tool1:'Figma', tool2:'Card sort', tool3:'Surveys', summary:'Kiosk app for customers of different language backgrounds to ease the process of ordering authentic Korean food.' , href: 'emk' },
   { thumbnail: Bookclub, name: 'BookClub',  category:'UX case study and Web development', tool1:'HTML', tool2:'Bootstrap', tool3:'Figma', summary:'A website that acts as a social platform to host book clubs and live discussion feeds centered around your availibility.', href: '/bookclub'},
   { thumbnail: Windbnb, name: 'WindBnb',  category:'Web development', tool1:'React', tool2:'MongoDB', tool3:'Express.js', summary:'Based off of the popular accommodation booking app Airbnb, my app incorporates a unique feature that allows friends to plan together.', href: 'https://windbnb-zd7l.onrender.com/' },
